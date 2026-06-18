@@ -1,29 +1,93 @@
 {
   "version": "2.0",
-  "dataset_id": "on005779",
-  "source": "openneuro",
-  "source_id": "ds005779",
+  "pipeline_stage": "enriched",
   "title": "Real-time personalized brain state-dependent TMS in healthy adults ",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Uttara Khatri": {},
     "Sara Hussain": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005779.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005779",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005779",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.brs.2024",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.2",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "446.9 MB (36 files)"
   ],
-  "acknowledgements": "We thank all participants for their time."
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset contains raw neuroimaging data from a study investigating real-time, personalized brain state-dependent transcranial magnetic stimulation (TMS) in healthy adults. The research demonstrates that personalized whole-brain activity patterns can predict human corticospinal tract activation in real-time, enabling adaptive brain stimulation protocols tailored to individual neural signatures.",
+  "methods_description": "Real-time and offline analysis of brain activity patterns to predict corticospinal tract activation, with personalized TMS delivery based on individual whole-brain activity signatures.",
+  "keywords": [
+    {
+      "term": "transcranial magnetic stimulation"
+    },
+    {
+      "term": "real-time brain imaging"
+    },
+    {
+      "term": "corticospinal tract"
+    },
+    {
+      "term": "personalized neurostimulation"
+    },
+    {
+      "term": "brain state decoding"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor cortex"
+    },
+    {
+      "term": "real-time decoding"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "healthy adults"
+    },
+    {
+      "term": "neurotypical"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NINDS",
+      "award_number": "R21NS133605"
+    }
+  ],
+  "source_hash": "a13358469e9eb42b2c5a36497d897e69104dfd9c3aaea5a7522740a3c793ad3a"
 }
