@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005779",
+  "source": "openneuro",
+  "source_id": "ds005779",
+  "title": "Real-time personalized brain state-dependent TMS in healthy adults ",
+  "authors": {
+    "Uttara Khatri": {},
+    "Sara Hussain": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005779.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.2",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "acknowledgements": "We thank all participants for their time."
+}
