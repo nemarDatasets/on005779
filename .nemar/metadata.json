@@ -2,18 +2,50 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Real-time personalized brain state-dependent TMS in healthy adults ",
+  "description": "This dataset contains raw neuroimaging data from a study investigating real-time, personalized brain state-dependent transcranial magnetic stimulation (TMS) in healthy adults. The research demonstrates that personalized whole-brain activity patterns can predict human corticospinal tract activation in real-time, with potential applications for brain stimulation interventions.",
+  "methods_description": "Real-time and offline analysis of brain activity patterns to predict corticospinal tract activation, with personalized TMS delivery based on individual whole-brain activity signatures.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Uttara Khatri": {},
     "Sara Hussain": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005779.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "TMS"
     },
+    {
+      "term": "brain stimulation"
+    },
+    {
+      "term": "real-time decoding"
+    },
+    {
+      "term": "corticospinal tract"
+    },
+    {
+      "term": "personalized neuroscience"
+    },
+    {
+      "term": "motor evoked potentials"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "healthy adults"
+    },
+    {
+      "term": "real-time neurofeedback"
+    },
+    {
+      "term": "motor cortex"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005779",
       "identifier_type": "URL",
@@ -28,59 +60,16 @@
       "identifier": "10.1016/j.brs.2024",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "446.9 MB (36 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".md",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This dataset contains raw neuroimaging data from a study investigating real-time, personalized brain state-dependent transcranial magnetic stimulation (TMS) in healthy adults. The research demonstrates that personalized whole-brain activity patterns can predict human corticospinal tract activation in real-time, enabling adaptive brain stimulation protocols tailored to individual neural signatures.",
-  "methods_description": "Real-time and offline analysis of brain activity patterns to predict corticospinal tract activation, with personalized TMS delivery based on individual whole-brain activity signatures.",
-  "keywords": [
-    {
-      "term": "transcranial magnetic stimulation"
     },
     {
-      "term": "real-time brain imaging"
+      "identifier": "10.18112/openneuro.ds005779.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     },
     {
-      "term": "corticospinal tract"
-    },
-    {
-      "term": "personalized neurostimulation"
-    },
-    {
-      "term": "brain state decoding"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor cortex"
-    },
-    {
-      "term": "real-time decoding"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "healthy adults"
-    },
-    {
-      "term": "neurotypical"
+      "identifier": "10.1016/j.brs.2024.01.001",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -89,5 +78,22 @@
       "award_number": "R21NS133605"
     }
   ],
-  "source_hash": "a13358469e9eb42b2c5a36497d897e69104dfd9c3aaea5a7522740a3c793ad3a"
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "94.6 GB (750 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "3779ac70c7ba95d3e3f8e8d776e948cd5dbf206b19b24e885c5ce319801fc226"
 }
