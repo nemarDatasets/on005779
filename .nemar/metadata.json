@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Real-time personalized brain state-dependent TMS in healthy adults ",
-  "description": "This dataset contains raw neuroimaging data from a study investigating real-time, personalized brain state-dependent transcranial magnetic stimulation (TMS) in healthy adults. The research demonstrates that personalized whole-brain activity patterns can predict human corticospinal tract activation in real-time, with potential applications for brain stimulation interventions.",
-  "methods_description": "Real-time and offline analysis of brain activity patterns to predict corticospinal tract activation, with personalized TMS delivery based on individual whole-brain activity signatures.",
+  "description": "This dataset contains raw neuroimaging data from a study investigating real-time, personalized brain state-dependent transcranial magnetic stimulation (TMS) in healthy adults. The research demonstrates that personalized whole-brain activity patterns can predict human corticospinal tract activation in real-time, with potential applications for brain stimulation therapies. Data includes concurrent neuroimaging and TMS measurements collected during brain state-dependent stimulation protocols.",
+  "methods_description": "Real-time and offline analysis of brain activity patterns during TMS stimulation, with personalized decoding of corticospinal tract activation. Analysis code is available at https://github.com/SMNPLab/Realtime_decoding_neurotypical.git",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,37 +12,25 @@
   },
   "keywords": [
     {
-      "term": "TMS"
+      "term": "transcranial magnetic stimulation"
     },
     {
-      "term": "brain stimulation"
-    },
-    {
-      "term": "real-time decoding"
+      "term": "real-time brain imaging"
     },
     {
       "term": "corticospinal tract"
     },
     {
+      "term": "brain state-dependent stimulation"
+    },
+    {
       "term": "personalized neuroscience"
     },
     {
-      "term": "motor evoked potentials"
-    },
-    {
-      "term": "brain-computer interface"
+      "term": "motor system"
     },
     {
       "term": "EEG"
-    },
-    {
-      "term": "healthy adults"
-    },
-    {
-      "term": "real-time neurofeedback"
-    },
-    {
-      "term": "motor cortex"
     }
   ],
   "related_identifiers": [
@@ -69,7 +57,7 @@
     {
       "identifier": "10.1016/j.brs.2024.01.001",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
     }
   ],
   "funding_references": [
