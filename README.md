@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005779-blue)](https://doi.org/10.82901/nemar.on005779)
+
 This dataset contains raw data for the following publication:
 
 Khatri, U.U., Pulliam, K., Manesiya, M., Cortez, M.V., Millán, J.D.R. and Hussain, S.J., 2024. Personalized whole-brain activity patterns predict human corticospinal tract activation in real-time. Brain Stimulation, in press.
