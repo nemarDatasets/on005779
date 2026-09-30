@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Real-time personalized brain state-dependent TMS in healthy adults ",
-  "description": "This dataset contains raw neuroimaging data from a study investigating real-time, personalized brain state-dependent transcranial magnetic stimulation (TMS) in healthy adults. The research demonstrates that personalized whole-brain activity patterns can predict human corticospinal tract activation in real-time, with potential applications for brain stimulation therapies. Data includes concurrent neuroimaging and TMS measurements collected during brain state-dependent stimulation protocols.",
-  "methods_description": "Real-time and offline analysis of brain activity patterns during TMS stimulation, with personalized decoding of corticospinal tract activation. Analysis code is available at https://github.com/SMNPLab/Realtime_decoding_neurotypical.git",
+  "description": "This dataset contains raw EEG and transcranial magnetic stimulation (TMS) data from healthy adults, collected to test real-time, personalized brain state-dependent stimulation. Whole-brain activity patterns were decoded in real time to predict activation of the corticospinal tract, with motor evoked potentials as the outcome measure. The companion publication (Khatri, Pulliam, Manesiya, Cortez, Millán and Hussain, 'Personalized whole-brain activity patterns predict human corticospinal tract activation in real-time', Brain Stimulation, 2024) is in press and has no DOI yet.",
+  "methods_description": "Raw EEG and TMS data were recorded from healthy adults (BrainVision format: .eeg/.vhdr/.vmrk). During stimulation, whole-brain EEG activity patterns were decoded in real time using a personalized model to predict corticospinal tract activation, indexed by motor evoked potentials elicited by TMS. Real-time and offline analyses were performed with the code available at https://github.com/SMNPLab/Realtime_decoding_neurotypical.git",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,25 +12,24 @@
   },
   "keywords": [
     {
-      "term": "transcranial magnetic stimulation"
+      "term": "EEG"
     },
     {
-      "term": "real-time brain imaging"
-    },
-    {
-      "term": "corticospinal tract"
+      "term": "Transcranial Magnetic Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
     },
     {
       "term": "brain state-dependent stimulation"
     },
     {
-      "term": "personalized neuroscience"
+      "term": "real-time decoding"
     },
     {
-      "term": "motor system"
+      "term": "corticospinal tract"
     },
     {
-      "term": "EEG"
+      "term": "motor evoked potentials"
     }
   ],
   "related_identifiers": [
@@ -40,24 +39,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005779",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1016/j.brs.2024",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005779.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
     },
     {
-      "identifier": "10.1016/j.brs.2024.01.001",
-      "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "identifier": "https://nemar.org/dataset/on005779",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -72,7 +61,7 @@
     "eeg"
   ],
   "sizes": [
-    "94.6 GB (750 files)"
+    "88.08 GB (750 files)"
   ],
   "formats": [
     ".eeg",
